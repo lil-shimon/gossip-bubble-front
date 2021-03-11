@@ -44,7 +44,7 @@ export default function Auth() {
         }
     }
 
-    const authUser = async (e: FormEvent<HTMLFontElement>) => {
+    const authUser = async (e: FormEvent<HTMLFormElement>) => {
         e.preventDefault()
         if (isLogin) {
             login()
